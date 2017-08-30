@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.baseLayoutStyles {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 23em;
+  height: 2em;
+}
+
+input.submit {
+  width: 23.6em;
+}
+
+textarea {
+  width: 23em;
+}
