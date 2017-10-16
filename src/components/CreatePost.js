@@ -50,7 +50,7 @@ class CreatePost extends Component {
     })
       .then(r => r.json())
       .then(data => {
-        // console.log(data)
+        console.log(data)
       })
 
     this.setState({ author: '', title: '', blogPost: '' })
